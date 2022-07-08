@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <button id="click" onClick={showFn}>
-        Show
+        Click
       </button>
       {show === true && (
         <p id="para">
